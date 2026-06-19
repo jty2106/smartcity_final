@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Local/raw geospatial data and archives
+data/
+스시론 기말과제/
+*.zip
+*.7z
+*.dbf
+*.shp
+*.shx
+*.prj
+*.cpg
+*.fix
+*.cst
+
+# Generated duplicate data. GitHub Pages uses docs/data/site-data.json.
+sushi_final_system/public/data/site-data.json
+
+# Local screenshots and temporary exports
+스크린샷*.png
+*.tmp
+*.log
+
+# Previous local experiments not required for this Pages site
+seoul_taz_*
+land_use_analysis.html
+songpa_*.html
+vworld_*.html
+check_fgb_index.js
+inspect_all_fgb_schemas.js
+data_spec.md
+smartcity_dataset_guide.docx
+scripts/
+gitattributes
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
